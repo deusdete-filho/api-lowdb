@@ -1,0 +1,56 @@
+{
+  "user": [
+    {
+      "nome": "Joao",
+      "email": "joao@joao.com",
+      "genero": "masculino",
+      "id": 1
+    },
+    {
+      "nome": "Joao",
+      "email": "joao@joao.com",
+      "genero": "masculino",
+      "id": 2
+    },
+    {
+      "nome": "Joao",
+      "email": "joao@joao.com",
+      "genero": "masculino",
+      "id": 3
+    },
+    {
+      "nome": "Joao",
+      "email": "joao@joao.com",
+      "genero": "masculino",
+      "id": 4
+    },
+    {
+      "nome": "Deusdete",
+      "email": "deusdete@deusdete.com",
+      "genero": "masculino",
+      "id": 5
+    },
+    {
+      "nome": "Deusdete",
+      "email": "deusdete@deusdete.com",
+      "genero": "feminino",
+      "id": 6
+    }
+  ],
+  "fila": [
+    {
+      "user_id": 2,
+      "posicao": 2
+    },
+    {
+      "user_id": 5,
+      "posicao": 2
+    },
+    {
+      "user_id": 6,
+      "posicao": 3
+    }
+  ],
+  "countIdUserProximo": 0,
+  "countIdFilaProximo": 0
+}
