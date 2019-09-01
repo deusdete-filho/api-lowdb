@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Deusdete",
+    "email": "deusdete@deusdete.com",
+    "genero": "masculino",
+    "id": 1
+  },
+  {
+    "nome": "Joao",
+    "email": "joao@joao.com",
+    "genero": "masculino",
+    "id": 2
+  },
+  {
+    "nome": "Maria",
+    "email": "maria@maria.com",
+    "genero": "feminino",
+    "id": 3
+  }
+]

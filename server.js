@@ -48,7 +48,7 @@ low(adapter)
 // - showLine - Lista os usuários da fila e suas respectivas posições;
         app.get('/showLine', (req, res) => {
           // seleciona os usuario na fila e faz join com os usuarios
-          const userIds = db.get('fila').map('user_id').value()
+          const userIds = db.get('fila').map('user_id').orderBy('posicao').value()
           const users = db.get('user').filter(user => userIds.includes(user.id)).value()
           res.send(users)
         })
@@ -69,9 +69,10 @@ low(adapter)
 
         app.get('/popLine', (req, res) => {
           const posicaoFila = db.get('fila[0].posicao').value()
-
+          const posicaoFilaUser_id = db.get('fila[0].user_id').value()
+    
           db.get('fila').remove({posicao: posicaoFila}).write()
-          res.send({ posicao: posicaoFila })
+          res.send({ posicao: posicaoFila})
 
         })
 

@@ -1,8 +1,8 @@
 {
   "user": [
     {
-      "nome": "Joao",
-      "email": "joao@joao.com",
+      "nome": "Deusdete",
+      "email": "deusdete@deusdete.com",
       "genero": "masculino",
       "id": 1
     },
@@ -13,28 +13,16 @@
       "id": 2
     },
     {
-      "nome": "Joao",
-      "email": "joao@joao.com",
-      "genero": "masculino",
+      "nome": "Maria",
+      "email": "maria@maria.com",
+      "genero": "feminino",
       "id": 3
     },
     {
-      "nome": "Joao",
-      "email": "joao@joao.com",
-      "genero": "masculino",
-      "id": 4
-    },
-    {
-      "nome": "Deusdete",
-      "email": "deusdete@deusdete.com",
-      "genero": "masculino",
-      "id": 5
-    },
-    {
-      "nome": "Deusdete",
-      "email": "deusdete@deusdete.com",
+      "nome": "Joana",
+      "email": "joana@joana.com",
       "genero": "feminino",
-      "id": 6
+      "id": 4
     }
   ],
   "fila": [
@@ -43,11 +31,11 @@
       "posicao": 2
     },
     {
-      "user_id": 5,
-      "posicao": 2
+      "user_id": 3,
+      "posicao": 3
     },
     {
-      "user_id": 6,
+      "user_id": 1,
       "posicao": 3
     }
   ],
